@@ -13,9 +13,13 @@ jobs:
         with:
           issue-number: ${{github.event.issue.number}}
           body: |
-            This is a multi-line test comment
-            - With GitHub **Markdown** :sparkles:
-            - Created by [create-or-update-comment][1]
+            Thank you for creating an issue! :tada:
 
-            [1]: https://github.com/peter-evans/create-or-update-comment
+            Here's a list of things you can do to help us resolve the issue:
+
+            - [ ] Add more information about the issue.
+            - [ ] Provide a code sample that demonstrates the issue.
+            - [ ] Suggest a fix, if you can.
+            - [ ] Tell us which version of the project you're using.
+            
           reactions: '+1'
